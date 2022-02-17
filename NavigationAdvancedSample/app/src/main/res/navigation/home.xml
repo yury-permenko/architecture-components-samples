@@ -29,6 +29,7 @@
         tools:layout="@layout/fragment_title">
         <action
             android:id="@+id/action_title_to_about"
+            app:enterAnim="@android:anim/slide_in_left"
             app:destination="@id/aboutScreen"/>
     </fragment>
     <fragment
